@@ -1,0 +1,94 @@
+#bs_cssviewer{
+    font-family: Verdana, Sans Serif;
+    font-size: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(250, 250, 255, .9);
+    border-bottom: 3px solid black;
+    text-align: center;
+    overflow: scroll;
+    display: block;
+    color: black;
+}
+
+#bs_cssviewer #bs_container_instr{
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+#bs_cssviewer_h2{
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+#bs_cssviewer #bs_container{
+    display: none;
+}
+
+#bs_cssviewer #bs_url{
+    font-style: italic;
+}
+
+#bs_cssviewer #title{
+    font-family: Verdana, Sans Serif;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    overflow: scroll;
+}
+
+#bs_cssviewer #details{
+    width: 300px;
+    height: 150px;
+    float: left;
+    padding-top: 30px;
+    overflow: scroll;
+}
+
+#bs_cssviewer #details #font-preview{
+    height: 50px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#bs_cssviewer #details #style-details{
+    text-align: left;
+    display: inline-block;
+}
+
+#bs_table{
+    border-spacing: 20px 0px;
+}
+
+#bs_cssviewer #bookmark{
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    float: left;
+    vertical-align: center;
+    padding-top: 30px;
+}
+
+#bs_cssviewer #bookmark button{
+    display: inline;
+    width: 100px;
+    height: 30px;
+    -webkit-appearance: button;
+}
